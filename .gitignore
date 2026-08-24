@@ -1,0 +1,10 @@
+# Local Netlify folder
+node_modules
+.next
+.netlify
+out
+dist
+.env*.local
+.env
+.DS_Store
+*.pem
