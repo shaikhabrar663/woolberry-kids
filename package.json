@@ -1,21 +1,15 @@
 {
-  "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start",
-    "postinstall": "prisma generate"
-  },
   "name": "woolberry-kids",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
+    "postinstall": "prisma generate",
     "lint": "next lint",
     "seed": "tsx prisma/seed.ts"
   },
-  
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.15.13",
     "@prisma/adapter-pg": "^7.9.1",
@@ -50,4 +44,3 @@
     "typescript": "^7.0.2"
   }
 }
-
